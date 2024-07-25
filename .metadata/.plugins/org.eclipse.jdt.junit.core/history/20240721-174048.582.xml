@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="OrangeHRM" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="Runner.Runner" time="14.823">
+    <testsuite name="OrangeHRM Login Page" time="14.823">
+      <testcase name="Login with valid credentials" classname="OrangeHRM Login Page" time="7.728"/>
+      <testcase name="Login with invalid crendentials" classname="OrangeHRM Login Page" time="7.095"/>
+    </testsuite>
+  </testsuite>
+</testrun>

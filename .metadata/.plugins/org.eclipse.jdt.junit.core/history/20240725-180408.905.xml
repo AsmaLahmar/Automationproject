@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner (1)" project="XiaomiAuto" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="runner.Runner" time="23.998">
+    <testsuite name="HomePageXiaomi" time="23.998">
+      <testcase name="Click on product" classname="HomePageXiaomi" time="23.998"/>
+    </testsuite>
+  </testsuite>
+</testrun>

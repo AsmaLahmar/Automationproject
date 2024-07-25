@@ -1,0 +1,8 @@
+#Author: Asma Lahmar
+
+Feature: OrangeHRM Login Page
+Scenario: Login with valid credentials
+Given Admin is on Login page 
+When Admin enters correct username "" and correct password ""
+Then Admin is directed to the Homepage that contains message "" 
+

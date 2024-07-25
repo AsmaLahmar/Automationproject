@@ -1,0 +1,36 @@
+package Pages;
+
+import org.junit.Assert;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import Helper.Config;
+
+public class AjoutproduitPanier {
+	
+	
+	@FindBy(xpath="/html/body/div[1]/div[4]/div/div/div/div/div[3]/div[1]/div/div[3]/div/form/div/div[2]/div/button")
+	WebElement btnajoutpanier;
+	@FindBy(xpath="/html/body/div[1]/header/div[1]/div/section/div/div[4]/div/section/div/div[2]/div/div/div/div/div/div[1]/a/span/i")
+	WebElement btnpanier;
+	@FindBy(name="Redmi Buds 5 - BLANC")
+	WebElement verifproduitpanier;
+	
+	
+	public AjoutproduitPanier() {
+		PageFactory.initElements(Config.driver, this);
+	}
+	
+	public void AddproductToCart () {
+		btnajoutpanier.click();
+	}
+	
+	public void verifproduitPanier (String NomProduit) throws Exception {
+		btnpanier.click();
+		Thread.sleep(4000);
+		Assert.assertTrue(verifproduitpanier.getText().contains(NomProduit));
+		
+		
+	}
+}

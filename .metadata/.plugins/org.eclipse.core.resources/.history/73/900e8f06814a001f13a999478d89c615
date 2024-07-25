@@ -1,0 +1,32 @@
+package Pages;
+
+import java.util.List;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import Helper.Config;
+
+public class HomePageMI {
+	@FindBy(xpath="/html/body/div[1]/header/div[1]/div/section/div/div[2]/div/div/div/div/nav/ul/li/a")
+	List<WebElement> Menus;
+	@FindBy(xpath="/html/body/div[1]/header/div[1]/div/section/div/div[2]/div/div/div/div/nav/ul/li[2]/div/div/div/div/section/div/div/div/div/div/div/a/svg/path")
+    List<WebElement> Submenus;
+	@FindBy(tagName="h1")
+	WebElement verifSubmenuPage;
+	
+	public HomePageMI () {
+		PageFactory.initElements(Config.driver, this);
+	}
+	public void MousehoverMenuAndclickSubmenu(String MenuTitle, String Submenutite) {
+		for(WebElement Menu: Menus) {
+			if (Menu.getText().contains(MenuTitle)) {
+				Config.Action = new Actions(Config.driver);
+				
+			}
+		}
+		
+	}
+}

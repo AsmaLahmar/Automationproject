@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner (1)" project="XiaomiAuto" tests="1" started="1" failures="1" errors="0" ignored="0">
+  <testsuite name="runner.Runner" time="54.02">
+    <testsuite name="HomePageXiaomi" time="54.02">
+      <testcase name="MouseHover over menus , choose a submenu then redirected to the page of submenu chosen" classname="HomePageXiaomi" time="54.02">
+        <failure>
+          <expected>Maison Connectée</expected>
+          <actual/>
+          org.junit.ComparisonFailure: expected:&lt;[Maison Connectée]&gt; but was:&lt;[]&gt;&#13;
+	at org.junit.Assert.assertEquals(Assert.java:117)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:146)&#13;
+	at Testsuites.HomePageMIstepDEF.admin_is_redirected_to_the_page_that_contains_the_chosen_submenu(HomePageMIstepDEF.java:37)&#13;
+	at ✽.Admin is redirected to the page that contains the chosen submenu "Maison Connectée"(file:///C:/Users/Lahma/eclipse-workspace/XiaomiAuto/src/test/resources/Features/HomePageMI.feature:7)&#13;
+&#13;
+
+        </failure>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

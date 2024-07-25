@@ -1,0 +1,16 @@
+package Testauto;
+
+import org.openqa.selenium.WebDriver;
+
+public class Mytek2 {
+	
+	public void init() {
+		
+		WebDriver driver = new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver", "c:/chromedriver.exe");
+		String url = "https://www.mytek.tn/customer/account/login/referer/aHR0cHM6Ly93d3cubXl0ZWsudG4vY3VzdG9tZXIvYWNjb3VudC9sb2dvdXRTdWNjZXNzLw~~/";
+	    driver.get(url); 
+	}
+	
+
+}

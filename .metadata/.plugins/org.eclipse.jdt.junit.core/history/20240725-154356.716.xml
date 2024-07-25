@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner (1)" project="XiaomiAuto" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="runner.Runner" time="1.426">
+    <testsuite name="HomePageXiaomi" time="1.426">
+      <testcase name="MouseHover over menus , choose a submenu then redirected to the page of submenu chosen" classname="HomePageXiaomi" time="1.426">
+        <error>java.lang.IllegalAccessError: class Testsuites.HomePageMIstepDEF (in unnamed module @0x1e81f4dc) cannot access class jdk.internal.net.http.common.Utils (in module java.net.http) because module java.net.http does not export jdk.internal.net.http.common to unnamed module @0x1e81f4dc&#13;
+	at Testsuites.HomePageMIstepDEF.admin_is_on_xiaomi_home_page(HomePageMIstepDEF.java:22)&#13;
+	at ✽.Admin is on Xiaomi HomePage(file:///C:/Users/Lahma/eclipse-workspace/XiaomiAuto/src/test/resources/Features/HomePageMI.feature:5)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

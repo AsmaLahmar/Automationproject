@@ -1,0 +1,19 @@
+package Testauto;
+
+import org.junit.Test;
+
+public class AppTest {
+	@Test
+	public void loginWithValidCredentials() {
+		
+		WebDriver driver = new chromeDriver();
+		
+		
+		
+	}
+	
+	@Test
+    public void loginWithInvalidCredentials() {
+    	
+    }
+}

@@ -1,0 +1,7 @@
+#Author: AsmaLahmar
+Feature: HomePageXiaomi
+Scenario: MouseHover over menus , choose a submenu then redirected to the page of submenu chosen
+
+Given Admin is on Xiaomi HomePage
+When Admin clicks on "Smartphone " and on a "Xiaomi"
+Then  Admin is redirected to the page that contains the chosen submenu "XIAOMI"

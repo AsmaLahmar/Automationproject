@@ -1,0 +1,29 @@
+package Pages;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class DellHomePageStepDef {
+
+	
+	@Given("Admin is on Dell Homepage")
+	public void admin_is_on_dell_homepage() {
+	 
+	}
+
+	@When("Admin mousehovers on menu {string} and submenu {string}")
+	public void admin_mousehovers_on_menu_and_submenu(String string, String string2) {
+	    
+	}
+
+	@When("Admin clicks on product {string}")
+	public void admin_clicks_on_product(String string) {
+	   
+	}
+
+	@Then("Admin is directed to the product page that contains the message {string}")
+	public void admin_is_directed_to_the_product_page_that_contains_the_message(String string) {
+	   
+	}
+}

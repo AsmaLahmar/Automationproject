@@ -1,0 +1,27 @@
+package Testsuites;
+
+import io.cucumber.java.en.*;
+
+
+public class HomePageTestsuite {
+	
+	
+	@Given("Admin is on the HomePage")
+	public void admin_is_on_the_home_page() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@When("Admin clicks on menu name {string}")
+	public void admin_clicks_on_menu_name(String string) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Then("Admin is directed to the page that contains the name of the {string}")
+	public void admin_is_directed_to_the_page_that_contains_the_name_of_the(String string) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+}
