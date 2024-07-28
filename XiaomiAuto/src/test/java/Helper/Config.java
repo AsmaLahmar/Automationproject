@@ -8,7 +8,7 @@ import org.openqa.selenium.interactions.Actions;
 public class Config {
 	
 	public static WebDriver driver;
-	public static Actions Action;
+	public static Actions actions;
 	public static void ConfChrome() throws Exception {
 		System.setProperty("webdriver.chrome.driver", Utils.getproprety("TestDriverPath"));
 	}
